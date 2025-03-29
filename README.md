@@ -1,84 +1,70 @@
-# 📌 Credit Default Management System
+# Getting Started with Create React App
 
-### 🎓 A Class Group Project for **Advanced Database Systems**
-#### **St. Paul’s University | 4th Year | Bachelor’s Degree Program**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 👥 Group Members
-- **BOBITNRB318722**
-- **BOBITNRB403222**
-- **BOBITLMR230622**
-- **BOBITNRB558122**
-- **BOBITNRB387822**
+## Available Scripts
 
-## 📜 Project Overview
-The **Credit Default Management System** is a full-stack web application designed to help manage credit default records efficiently. It leverages **PostgreSQL**, with the database hosted on **Oracle Cloud**, and provides an interactive user interface for managing and analyzing data.
+In the project directory, you can run:
 
-### 🚀 Tech Stack
-- **Backend**: Node.js, Express.js
-- **Frontend**: React.js
-- **Database**: PostgreSQL (hosted on Oracle Cloud)
-- **API Documentation**: Swagger UI
+### `npm start`
 
-## 🏗️ Installation Guide
-### 🔹 Prerequisites
-Before running this project, ensure you have the following installed:
-- [Node.js](https://nodejs.org/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Git](https://git-scm.com/)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### 🔹 Clone the Repository
-```sh
- git clone https://github.com/your-username/credit-default-management.git
- cd credit-default-management
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 🔹 Install Dependencies
-```sh
- npm install
-```
+### `npm test`
 
-### 🔹 Set Up PostgreSQL Database
-1. **Create a PostgreSQL Database:**
-   ```sql
-   CREATE DATABASE credit_default;
-   ```
-2. **Restore the database from backup:**
-   ```sh
-   psql -U your_username -d credit_default -f group-j.sql
-   ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 🔹 Set Up Environment Variables
-Create a `.env` file in the root directory and configure the following:
-```env
-DB_HOST=your-oracle-cloud-host
-DB_USER=your-db-username
-DB_PASSWORD=your-db-password
-DB_NAME=credit_default
-PORT=5000
-```
+### `npm run build`
 
-### 🔹 Run the Backend Server
-```sh
- npm start
-```
-The backend should now be running at **http://localhost:5000**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 🔹 Run the Frontend
-```sh
- cd frontend
- npm install
- npm start
-```
-The frontend should now be running at **http://localhost:3000**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 📖 API Documentation
-Swagger UI is integrated for API documentation.
-- Open: **http://localhost:5000/api-docs** to view API endpoints.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## 🚀 Contribution & Future Enhancements
-We welcome contributions to improve the project. Future enhancements may include:
-- Improved data visualization
-- AI-based credit risk analysis
+### `npm run eject`
 
-## 📜 License
-This project is for academic purposes and is licensed under **MIT License**.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
